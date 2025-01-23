@@ -19,4 +19,4 @@ Será desenvolvido um projeto utilizando do Laravel, Inertia e Vue para exemplif
 
 - Vue:
     ````bash
-  
+    npm install @inertiajs/vue3
