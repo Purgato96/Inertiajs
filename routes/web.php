@@ -8,7 +8,7 @@ Route::get('/', function () {
 });
 
 Route::get('/teste', function () {
-    Inertia::render('Teste', [
-        'name' => 'Purgato',
+    return Inertia::render('Teste', [
+        'school' => 'test',
     ]);
 });
