@@ -8,9 +8,15 @@
             <div>
                 <h1>LOGO</h1>
                 <ul>
-                    <li><a :href="route('site.home')">Home</a></li>
-                    <li><a :href="route('site.home')">Listagem</a></li>
-                    <li><a :href="route('site.contact')">Contato</a></li>
+                    <li>
+                        <Link :href="route('site.home')">Home - JEITO BlackDev</Link>
+                    </li>
+                    <li>
+                        <Link :href="route('users.index')">Listagem - JEITO BlackDev</Link>
+                    </li>
+                    <li>
+                        <Link :href="route('site.contact')">Contato - JEITO BlackDev</Link>
+                    </li>
                 </ul>
             </div>
 
@@ -18,7 +24,7 @@
     </header>
 
     <main>
-        <slot />
+        <slot/>
     </main>
     <footer>
         <p>Copyright Todos os Direitos Reservados - Purgato Technology </p>
