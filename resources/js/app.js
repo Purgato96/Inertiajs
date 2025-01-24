@@ -29,3 +29,4 @@ createInertiaApp({
         showSpinner: true,
     },
 })
+

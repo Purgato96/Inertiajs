@@ -4,6 +4,7 @@ namespace App\Http\Middleware;
 
 use Illuminate\Http\Request;
 use Inertia\Middleware;
+use Tighten\Ziggy\Ziggy;
 
 class HandleInertiaRequests extends Middleware {
     /**
@@ -38,6 +39,10 @@ class HandleInertiaRequests extends Middleware {
                 'name' => 'Matheus Purgato',
                 'email' => 'matheuspurgato@gmail.com',
             ],
+            'ziggy' => fn() => [
+                ...(new Ziggy)->toArray(),
+                'location' => $request->url(),
+            ]
         ]);
     }
 }
