@@ -11,6 +11,9 @@ const props = defineProps({
 </script>
 
 <template>
+    <Head>
+        <title>Listagem de Usuários</title>
+    </Head>
     <h1>Listagem de Usuários</h1>
     <h2>Tabela</h2>
     <table>
