@@ -1,4 +1,5 @@
 <script setup>
+
 const props = defineProps({
         users: {
             type: Array,
@@ -6,6 +7,7 @@ const props = defineProps({
         }
     }
 )
+
 </script>
 
 <template>
