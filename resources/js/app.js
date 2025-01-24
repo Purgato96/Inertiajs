@@ -21,4 +21,11 @@ createInertiaApp({
             .component('Head', Head)
             .mount(el)
     },
+    /*Prgress Bar*/
+    progress: {
+        delay: 250,
+        color: '#006000',
+        includeCSS: true,
+        showSpinner: true,
+    },
 })
